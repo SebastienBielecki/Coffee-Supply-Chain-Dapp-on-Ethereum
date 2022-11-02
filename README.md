@@ -2,6 +2,18 @@
 
 ## Project Unified Modelling Language
 
+### Activity Diagram
+
+<img src="./images/ActivityDiagram.png" alt="UML-Activity-Diagram">
+
+### Sequence Diagram
+
+<img src="./images/SequenceDiagram.png" alt="UML-Sequence-Diagram">
+
+### State Diagram
+
+<img src="./images/StateDiagram.png" alt="UML-State-Diagram">
+
 ### Class Diagram
 
 <img src="./images/ClassDiagram.png" alt="UML-Class-Diagram">
