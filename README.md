@@ -70,8 +70,18 @@ Transaction hash: 0xb27403565380bd6097ac02ba33efb6af3f6449907d7b35c9e7dd24387a23
 Smart Contract Address: 0x09b8bf0cd21b850a98acc669f855de9cf8d9b028
 
 ## Test App
+
+### Dependencies
+Node.js v10.9.0
+Truffle v4.1.14
+Solidity v0.4.24
+
+### instruction to test App on your local network
+
 Test the app on your local network:
 
 - clone repository
-- npm install
-- 
+- "npm install" to install dependencies
+- launch Ganache on port 7545
+- deploy the smart contracts on your local blockchain with "truffle migrate --reset"
+- npm run dev and check the app on https://localhost:3000
