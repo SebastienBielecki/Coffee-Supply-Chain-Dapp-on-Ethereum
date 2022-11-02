@@ -1,5 +1,13 @@
 # Coffee-Supply-Chain-Dapp-on-Ethereum
 
+## Project Unified Modelling Language
+
+### Class Diagram
+
+<img src="/.images/ClassDiagram.png" alt="UML-Class-Diagram">
+
+## Deployment on Goerli Testnet
+
 The contracts are deployed on Goerli at the following addresses:
 <br>
 <br>
