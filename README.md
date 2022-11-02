@@ -1,20 +1,30 @@
 # Coffee-Supply-Chain-Dapp-on-Ethereum
 
-## Project Unified Modelling Language
+This a dApp implemented on Ethereum with a basic Front End. 
+It features the tracking the state of an asset (Coffee) along a Supply Chain composed by 4 actors: Farmer, Distributor, Retailer and Consumer, and we are tracking the information of the asset, such as the origin farm, the farmer Id, distributor Id, retailer Id and Consumer Id.
+
+## Project Unified Modelling Language (UML)
+
 
 ### Activity Diagram
+
+The general process is the following:
 
 <img src="./images/ActivityDiagram.png" alt="UML-Activity-Diagram">
 
 ### Sequence Diagram
 
+This diagram models the different actions that can do the different actors that generates a change on the asset State.
 <img src="./images/SequenceDiagram.png" alt="UML-Sequence-Diagram">
 
 ### State Diagram
 
+This diagrams models the state of the asset depending on where they stand in the supply chain.
 <img src="./images/StateDiagram.png" alt="UML-State-Diagram">
 
 ### Class Diagram
+
+This diagram models the different smart contracts implemented, with their variables and methods. The architecture is a Base contract called SupplyChain, that inherits from Access Control contracts (FarmerRole, DistributorRole, RetailerRole, ConsumerRole). The access contract access a Library called Roles. The Base contracts also inherint from the Ownable contract, that permits to change the owner of the contract.
 
 <img src="./images/ClassDiagram.png" alt="UML-Class-Diagram">
 
