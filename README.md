@@ -3,6 +3,8 @@
 This a dApp implemented on Ethereum with a basic Front End. 
 It features the tracking the state of an asset (Coffee) along a Supply Chain composed by 4 actors: Farmer, Distributor, Retailer and Consumer, and we are tracking the information of the asset, such as the origin farm, the farmer Id, distributor Id, retailer Id and Consumer Id.
 
+This project corresponds to the <a href="https://www.udacity.com/course/blockchain-developer-nanodegree--nd1309?utm_source=gsem_brand&utm_medium=ads_r&utm_campaign=12948014301_c_individuals&utm_term=127442638691&utm_keyword=blockchain%20udacity_e">Udacity Blockchain Developer Nanodegree</a>, section 3: Ethereum Dapp for Tracking Items through Supply Chain
+
 ## Project Unified Modelling Language (UML)
 
 
@@ -66,3 +68,10 @@ Smart Contract Address: 0x89d119223ff74fda495ffeaff1632595bd9a59f4
 Transaction hash: 0xb27403565380bd6097ac02ba33efb6af3f6449907d7b35c9e7dd24387a236560
 <br>
 Smart Contract Address: 0x09b8bf0cd21b850a98acc669f855de9cf8d9b028
+
+## Test App
+Test the app on your local network:
+
+- clone repository
+- npm install
+- 
