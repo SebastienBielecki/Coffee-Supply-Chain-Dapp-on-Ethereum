@@ -4,7 +4,7 @@
 
 ### Class Diagram
 
-<img src="/.images/ClassDiagram.png" alt="UML-Class-Diagram">
+<img src="./images/ClassDiagram.png" alt="UML-Class-Diagram">
 
 ## Deployment on Goerli Testnet
 
